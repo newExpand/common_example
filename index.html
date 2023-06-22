@@ -713,6 +713,97 @@
             </div>
         </script>
 
+        <div id="target-text" class="gc__heading">텍스트필드</div>
+
+        <script type="text/template" data-title="텍스트필드" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" value="밸류">
+            </div>
+        </script>
+
+        <script type="text/template" data-title="읽기전용 텍스트필드" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" readonly value="밸류">
+            </div>
+        </script>
+
+        <script type="text/template" data-title="비활성화 텍스트필드" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" value="밸류" disabled>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 글자수 체크" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" value="밸류">
+                <div class="text-count">
+                    <span class="count">0</span>
+                    <span class="total">150</span>
+                </div>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 + 단일 안내문구" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" value="밸류">
+                <p class="info">안내문구</p>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 + 다중 안내문구" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text" value="밸류">
+                <p class="info -bullet">안내문구</p>
+                <p class="info -bullet">안내문구</p>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 + 체크박스" data-size="2">
+            <label for="text" class="label">레이블</label>
+            <div class="text">
+                <input type="text" id="text">
+            </div>
+            <div class="checkbox -sm">
+                <input type="checkbox" id="checkbox-sm-checked" checked>
+                <label for="checkbox-sm-checked">체크박스</label>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 성공" data-size="2">
+            <label for="text" class="label -success">레이블</label>
+            <div class="text -success">
+                <input type="text" id="text" value="밸류">
+                <p class="message">결과메시지</p>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 에러" data-size="2">
+            <label for="text" class="label -error">레이블</label>
+            <div class="text -error">
+                <input type="text" id="text" value="밸류">
+                <p class="message">결과메시지</p>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="텍스트필드 모양 버튼" data-size="2">
+            <p class="label">레이블</p>
+            <div class="text">
+                <button type="button" class="input">내용내용</button>
+            </div>
+        </script>
+
+        <script type="text/template" data-title="비활성화 텍스트필드 모양 버튼" data-size="2">
+            <p class="label">레이블</p>
+            <div class="text">
+                <button type="button" class="input" disabled>내용내용</button>
+            </div>
+        </script>
 
     </div>
 </body>
